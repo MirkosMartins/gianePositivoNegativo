@@ -19,5 +19,5 @@ ferr = st.number_input('ferritin (ng/mL)')
 pac = [mono,linf,plaq,pcr,ferr]
 
 pred = modelo.predict([pac])
-if st.button('Analisar'):
+if st.button('Analyse'):
     st.write(classes[int(pred)])
